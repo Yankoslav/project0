@@ -1,56 +1,43 @@
-$color: #2A2C24;
-
 h1 {
-    color: $color;
+  color: #2A2C24;
 }
 
 h2 {
-    color: $color;
+  color: #2A2C24;
 }
 
-
-%ringsgrid {
-    width: 90%;
-    padding: 20px;
+.ring3:hover, .ring2:hover, .ring1:hover {
+  width: 90%;
+  padding: 20px;
 }
 
 .ring1:hover {
-    @extend %ringsgrid;
-    background-color: rgb(246, 202, 202, 0.5);
+  background-color: rgba(246, 202, 202, 0.5);
 }
 
 .ring2:hover {
-    @extend %ringsgrid;
-    background-color: rgb(228, 194, 198, 0.5);
+  background-color: rgba(228, 194, 198, 0.5);
 }
 
 .ring3:hover {
-    @extend %ringsgrid;
-    background-color: rgb(205, 159, 204, 0.5);
+  background-color: rgba(205, 159, 204, 0.5);
 }
 
-nav {
-
- ul {
+nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #E3D8F1;
   padding-right: 100px;
   color: #000;
-
 }
-
-li {
+nav li {
   float: right;
   padding-right: 50px;
   list-style-type: none;
   color: #000;
-
-
 }
-
-li a {
+nav li a {
   display: block;
   color: black;
   text-align: center;
@@ -58,4 +45,4 @@ li a {
   text-decoration: none;
 }
 
-}
+/*# sourceMappingURL=variables.css.map */

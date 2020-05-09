@@ -4,7 +4,7 @@ Web Programming with Python and JavaScript
 
 This project is a simple website built to promote wooden rings produced by a local handmade artist.
 
-The page can be seen on this github page: https://yankoslav.github.io/project0/contact.html
+The page can be seen on this github page: https://yankoslav.github.io/project0/index.html
 
 The project includes:
 

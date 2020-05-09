@@ -1,0 +1,29 @@
+$color: #2A2C24;
+
+h1 {
+    color: $color;
+}
+
+h2 {
+    color: $color;
+}
+
+
+%ringsgrid {
+    width: 50%;
+}
+
+.ring1:hover {
+    @extend %ringsgrid;
+    background-color: rgb(246, 202, 202, 0.5);
+}
+
+.ring2:hover {
+    @extend %ringsgrid;
+    background-color: rgb(228, 194, 198, 0.5);
+}
+
+.ring3:hover {
+    @extend %ringsgrid;
+    background-color: rgb(205, 159, 204, 0.5);
+}
